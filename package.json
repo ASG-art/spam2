@@ -1,19 +1,17 @@
 {
   "name": "Kahrbaa",
   "version": "2.1.0",
-  "description": "-- Script Spam , Farm Credit By Kahrbaa --",
-  "main": "bot.js",
+  "description": "Web Application - Kahrbaa",
+  "main": "server.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "web": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "fs": "^0.0.2",
-    "node-opus": "^0.2.7",
-    "opusscript": "0.0.6",
-  "request": "^2.85.0"
+    "express": "^4.18.2"
   },
   "engines": {
-    "node": "8.x"
+    "node": ">=14.x"
   }
 }
