@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahrbaa Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Kahrbaa Web Application</h1>
+            <p class="subtitle">Modern Web Interface</p>
+        </header>
+
+        <main class="main-content">
+            <div class="status-card">
+                <h2>System Status</h2>
+                <div class="status-indicator">
+                    <span class="status-dot" id="statusDot"></span>
+                    <span id="statusText">Checking...</span>
+                </div>
+                <button id="refreshStatus" class="btn btn-primary">Refresh Status</button>
+            </div>
+
+            <div class="message-card">
+                <h2>Send Message</h2>
+                <div class="message-form">
+                    <input type="text" id="messageInput" placeholder="Enter your message..." />
+                    <button id="sendMessage" class="btn btn-secondary">Send</button>
+                </div>
+                <div id="messageResponse" class="response-area"></div>
+            </div>
+
+            <div class="features-card">
+                <h2>Features</h2>
+                <ul class="features-list">
+                    <li>Real-time status monitoring</li>
+                    <li>Message processing</li>
+                    <li>Modern responsive design</li>
+                    <li>API integration</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Kahrbaa. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
